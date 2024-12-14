@@ -1,0 +1,1 @@
+proc myproc {args} { if { [llength $args] == 2 } { puts "a is [lindex $args 0]" puts "b is [lindex $args 1]" } else { puts "Incorrect number of arguments" } } myproc 1 2 myproc {1 2}
