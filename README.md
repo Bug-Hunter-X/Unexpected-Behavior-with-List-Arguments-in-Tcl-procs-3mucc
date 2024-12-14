@@ -1,0 +1,1 @@
+This repository demonstrates a subtle issue in Tcl's handling of list arguments within procedures.  The `proc` command behaves differently based on how arguments are passed.  The `bug.tcl` file shows the unexpected behavior, while `bugSolution.tcl` offers a corrected implementation.
